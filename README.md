@@ -38,10 +38,11 @@ The board follows a clean, single-direction power flow topology for minimal sign
 <img width="1920" height="1082" alt="5V_Power_Supply_3D_Isometric_View" src="https://github.com/user-attachments/assets/09d24de0-9495-4e2c-a9e2-39b9eb5d5b78" />
 
 ### PCB Layout Design
-![PCB Layout](Documentation/pcb_layout.png)
+<img width="990" height="238" alt="5V_Power_Supply_PCB_Layout" src="https://github.com/user-attachments/assets/d207b7c4-3bb4-4d24-92aa-20c5ef531d32" />
 
 ### Schematic Diagram
-![Schematic](Documentation/schematic_preview.png)
+<img width="825" height="359" alt="5V_Power_Supply_Schematic" src="https://github.com/user-attachments/assets/3b74fbf6-3c52-4064-bbec-b865eaa93d4e" />
+
 ## 📂 Project Structure
 ```text
 ├── Hardware/           # KiCAD Schematic and PCB Layout files
