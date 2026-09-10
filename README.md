@@ -29,10 +29,13 @@ The board follows a clean, single-direction power flow topology for minimal sign
 
 ### 3D Board View
 ### Top View
-https://github.com/mayilraj07/5V_Power_Supply_PCB/blob/main/5V_Power_Supply/Docs/3D_Renders/5V_Power_Supply_Top_View.png?raw=true
+<img width="1920" height="1082" alt="5V_Power_Supply_Top_View" src="https://github.com/user-attachments/assets/98f800c4-3378-4d4c-bf95-18a3848df140" />
+
 ### Bottom View
+<img width="1920" height="1082" alt="5V_Power_Supply_3D_bottom_View" src="https://github.com/user-attachments/assets/99022edf-5661-4770-8a59-d4c83dd65c6f" />
 
 ### Isometric View
+<img width="1920" height="1082" alt="5V_Power_Supply_3D_Isometric_View" src="https://github.com/user-attachments/assets/09d24de0-9495-4e2c-a9e2-39b9eb5d5b78" />
 
 ### PCB Layout Design
 ![PCB Layout](Documentation/pcb_layout.png)
@@ -46,3 +49,8 @@ https://github.com/mayilraj07/5V_Power_Supply_PCB/blob/main/5V_Power_Supply/Docs
 ├── Docs/               # Images & 3D Render
 └── README.md           # Project Overview
 ``` 
+---
+
+## 👤 Author & Acknowledgment
+* **Designed by:** mayilraj07(https://github.com/mayilraj07)
+* **Tool:** KiCAD EDA
