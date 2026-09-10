@@ -1,1 +1,48 @@
-# 5V_Power_Supply_PCB
+# 5V Linear Power Supply Unit (PSU) PCB Design
+A compact, robust, and professional-grade **5V Regulated DC Power Supply** designed using **KiCAD**. This project steps down and regulates an unregulated DC input into a stable 5V output suitable for powering microcontrollers (Arduino, ESP32, Raspberry Pi Pico), sensors, and low-power embedded devices.
+---
+## 📌 Features & Highlights
+* **Stable 5V Output:** Constant voltage regulation using industry-standard voltage regulators.
+* **Input Protection:** Filter capacitors to reduce voltage ripples and high-frequency noise.
+* **Power Indicator:** On-board LED indicator for immediate visual status of the power supply.
+* **Compact Footprint:** Optimized 2-layer PCB layout designed with professional component placement rules.
+* **Noise Suppression:** Dedicated input/output decoupling capacitors placed adjacent to the regulator pins.
+---
+## 🛠️ Circuit Topology & Power Flow
+The board follows a clean, single-direction power flow topology for minimal signal interference:
+`DC Input / Connector` ➡️ `Input Filter Capacitors` ➡️ `5V Voltage Regulator` ➡️ `Output Filter Capacitors` ➡️ `Power LED Indicator` ➡️ `5V Terminal Output`
+---
+## 📐 Technical Specifications
+
+| Specification | Value / Description |
+| :--- | :--- |
+| **Input Voltage** | 7V - 12V DC |
+| **Output Voltage** | 5.0V DC (Regulated) |
+| **EDA Tool Used** | KiCAD |
+| **PCB Layers** | 2-Layer Board |
+| **Power Track Width** | 0.8 mm – 1.0 mm (High Current Capacity) |
+| **Signal Track Width** | 0.3 mm |
+| **Copper Pour** | Top & Bottom Ground Plane (GND Zone) |
+
+---
+## 🖼️ Screenshots & Previews
+
+### 3D Board View
+### Top View
+
+### Bottom View
+
+### Isometric View
+
+### PCB Layout Design
+![PCB Layout](Documentation/pcb_layout.png)
+
+### Schematic Diagram
+![Schematic](Documentation/schematic_preview.png)
+## 📂 Project Structure
+```text
+├── Hardware/           # KiCAD Schematic and PCB Layout files
+├── Production/         # Production-ready Gerber files (.zip) and (BOM)
+├── Docs/               # Images & 3D Render
+└── README.md           # Project Overview
+``` 
